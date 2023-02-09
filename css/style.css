@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+/* Common style start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.btn-main {
+  background: #bd0845;
+  color: white;
+  font-weight: 600;
+}
+.btn-main:hover {
+  color: #ffffff;
+  border: 1px solid #bd0845;
+  font-weight: 600;
+}
+/* Common style end */
+#header {
+  background: #bd0845;
+}
+
+#header .text {
+  height: 40px;
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .text p {
+  color: white;
+  font-weight: bold;
+}
+/* navbar style start */
+.navbar .navbar-brand {
+  font-size: 35px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu {
+  top: 140% !important;
+  border-top: 3px solid #bd0845;
+}
+
+/* navbar style end */
+/* banner style start */
+#banner {
+  width: 100%;
+}
+#banner .carousel .carousel-inner {
+  height: 600px;
+}
+#banner .carousel .carousel-inner img {
+  height: 600px;
+}
+#banner .carousel .carousel-inner .carousel-caption {
+  height: 150px !important;
+  background: rgba(0, 0, 0, 0.205);
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+/* banner style end */
